@@ -350,6 +350,16 @@ body {
   text-align: center;
 }
 
+
+.text-pharagrapher-picture-second {
+  font-size: 16px;
+  line-height: 1.11;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+  
+}
+
 /* Footer section */
 .footer-page {
   background-color: var(--backgroung-color-dark-theme);
