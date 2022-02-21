@@ -155,6 +155,15 @@ body {
 }
 
 /* PORTFOLIO */
+.navigation-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+
+
+
 .product-section-list {
   display: flex;
 }
@@ -162,12 +171,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .nav-list-button {
   margin-right: 8px;
-  margin-top: 65px;
+  /* margin-top: 65px; */
 }
 
 .product-section-style {
@@ -182,6 +191,8 @@ body {
   background-color: var(--backgroung-color-dark-theme);
   height: 600px;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title {
@@ -192,8 +203,6 @@ body {
   line-height: 60px;
   color: var(--primary-text-color-theme-dark);
   cursor: pointer;
-  padding-top: 200px;
-  padding-bottom: 30px;
 }
 
 .main-btn {
@@ -258,7 +267,7 @@ body {
 .title-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.11px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -303,23 +312,26 @@ body {
 .elements-team-section {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
-  margin-bottom: 30px;
 }
 
 .elements-section {
   margin-left: 30px;
+}
+
+.elements-section:nth-last-child(n+3) {
   margin-bottom: 30px;
 }
+
+
 
 .team-section {
   background: var(--background-light-theme);
   margin-left: -30px;
   margin-bottom: -30px;
   padding-top: 94px;
+  padding-bottom: 90px;
 }
-.team-section-title {
-  padding-top: 0px;
-}
+
 
 .gallery-section {
   padding-bottom: 94px;
@@ -362,9 +374,11 @@ body {
 
 /* Footer section */
 .footer-page {
+  display: flex;
   background-color: var(--backgroung-color-dark-theme);
   height: 252px;
   padding-top: 64px;
+  padding-bottom: 56px;
 }
 
 .footer-link {
@@ -394,6 +408,6 @@ body {
   margin-top: 20px;
   margin-bottom: 9px;
 }
-.mail-link-footer {
-  margin-bottom: 9px;
+.link-phone {
+  margin-top: 9px;
 }
