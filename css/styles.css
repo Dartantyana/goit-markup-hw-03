@@ -160,10 +160,6 @@ body {
   padding-bottom: 94px;
 }
 
-
-
-
-
 .product-section-list {
   display: flex;
 }
@@ -319,11 +315,9 @@ body {
   margin-left: 30px;
 }
 
-.elements-section:nth-last-child(n+3) {
+.elements-section:nth-last-child(n + 3) {
   margin-bottom: 30px;
 }
-
-
 
 .team-section {
   background: var(--background-light-theme);
@@ -332,7 +326,6 @@ body {
   padding-top: 94px;
   padding-bottom: 90px;
 }
-
 
 .gallery-section {
   padding-bottom: 94px;
@@ -363,14 +356,12 @@ body {
   text-align: center;
 }
 
-
 .text-pharagrapher-picture-second {
   font-size: 16px;
   line-height: 1.11;
   text-align: left;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
-  
 }
 
 /* Footer section */
